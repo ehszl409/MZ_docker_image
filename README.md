@@ -9,3 +9,7 @@
 +  ```vi docker-compose.yaml```
 +  웹 소스가 있는 레포지터리의 주소를 ```git clone``` 뒤에 넣어줍니다.
 +  브라우저에서 ```192.168.33.150``` 로 접속합니다.
+
+#### 기본 세팅 화면
+![image](https://github.com/ehszl409/MZ_docker_ubuntu_apache2_image/assets/73862305/a328f471-f62c-4f27-8d53-03b81ad3394f)
+
