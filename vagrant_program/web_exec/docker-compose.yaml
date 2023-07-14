@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    image: ehszl409/apache2:v1.1
+    entrypoint: > 
+            bash -c "rm -rf /var/www/html && \
+                     # 웹 소스가 있는 레포를 git clone 하세요.
+                     git clone https://github.com/ehszl409/MZ_static_web_template.git /var/www/html/ && \
+                     /usr/sbin/apache2ctl -D FOREGROUND"
+    ports:
+      - 80:80
+
